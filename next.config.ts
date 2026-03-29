@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // No special config needed
+  // Empty config - no turbopack in production
 };
 
 export default nextConfig;
