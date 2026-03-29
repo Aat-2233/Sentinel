@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Empty config - no turbopack in production
+  turbopack: {},   // ⭐ THIS LINE FIXES VERCEL ERROR
 };
 
 export default nextConfig;
